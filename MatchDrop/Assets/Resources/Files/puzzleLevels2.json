@@ -1,0 +1,437 @@
+{
+"levels":
+[	{
+    "level": "0",
+    "next": "01",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"0.0...11"
+    	],
+    "hint": "Make matches of 3 in a Row!\nDrag the token to a column,\nThen pull down and release",
+    "fail": "To solve a puzzle, you must remove all the tokens"
+    },
+    {
+    "level": "0",
+    "next": "0123",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"....2..3",
+    	"110.02.3"
+    	],
+    "hint": "You can make matches\nin any direction!",
+    "fail": "To solve a puzzle, you must remove all the tokens"
+    },
+    {
+    "level": "3",
+    "next": "430",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"....40..",
+    	"..3430.."
+    	],
+    "hint": "You can even make\ndiagonal matches!",
+    "fail": "To solve a puzzle, you must remove all the tokens"
+    },
+    {
+    "level": "2",
+    "next": "33",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"..33...."
+    	],
+    "hint": "You can also make\nmatches of more than 3",
+    "fail": "To solve a puzzle, you must remove all the tokens"
+    },
+    {
+    "level": "4",
+    "next": "aaa",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"......1.",
+    	"2211.221"
+    	],
+    "hint": "Multis match two\ntypes of tokens",
+    "fail": "To solve a puzzle, you must remove all the tokens"
+    },
+    {
+    "level": "5",
+    "next": "rr",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"..2.2...",
+    	"..4.41.1",
+    	"..3134.4"
+    	],
+    "hint": "Bombs explode\nwhen you match them",
+    "fail": "To solve a puzzle, you must remove all the tokens"
+    },
+    {
+    "level": "6",
+    "next": "*1",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"0.01010."
+    	],
+    "hint": "Zaps destroy\nall tokens of one type",
+    "fail": "To solve a puzzle, you must remove all the tokens"
+    },
+    {
+    "level": "7",
+    "next": "24",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"...2|...",
+    	"..244.|."
+    	],
+    "hint": "Rocks crumble\nwhen you make a match next to them",
+    "fail": "To solve a puzzle, you must remove all the tokens",
+    "broadcast":"UnlockEndless"
+    },
+    {
+    "level": "8",
+    "next": "04",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+		"..4.....",
+		".4211...",
+		"22100..."
+    	],
+    "hint": "Cascades allow you\nto chain lots of matches!",
+    "fail": "To solve a puzzle, you must remove all the tokens",
+    },
+    {
+    "level": "9",
+    "next": "213",
+    "grid": [
+		"........",
+		"........",
+		"........",
+		"........",
+		"........",
+		"...2....",
+		"..11....",
+		"..323..."
+    	],
+    "hint": "",
+    "fail": "To solve a puzzle, you must remove all the tokens",
+    },
+    {
+    "level": "10",
+    "next": "44",
+    "grid": [
+		"........",		
+		"........",		
+		"........",		
+		"........",		
+		"........",		
+		"........",		
+		"........",		
+		"44..4..."
+    	],
+    "hint": "Cascades allow you\nto chain lots of matches!",
+    "fail": "To solve a puzzle, you must remove all the tokens",
+    },
+    {
+    "level": "11",
+    "next": "020",
+    "grid": [
+		"........",		
+		"........",
+		"........",
+		"........",
+		"...1....",
+		"...1....",
+		"..20....",		
+		"..21...."
+    	],
+    "hint": "",
+    "fail": "To solve a puzzle, you must remove all the tokens",
+    },
+    {
+    "level": "12",
+    "next": "221",
+    "grid": [
+		"........",		
+		"........",		
+		"........",		
+		"........",		
+		"........",		
+		"........",		
+		"..11....",		
+		".121...."		
+		],
+    "hint": "",
+    "fail": "To solve a puzzle, you must remove all the tokens",
+    },
+    {
+    "level": "13",
+    "next": "420",
+    "grid": [
+			"........",		
+			"........",		
+			"...2....",		
+			"...1....",		
+			"...3....",
+			"..04....",
+			"..43....",
+			"0.1312.."
+		],
+    "hint": "",
+    "fail": "To solve a puzzle, you must remove all the tokens",
+    },
+    {
+    "level": "14",
+    "next": "220",
+    "grid": [
+			"........",
+			"........",
+			"..123...",
+			"..102...",
+			"..430...",
+			"..344...",
+			"..10011.",
+			"..10122."
+		],
+    "hint": "",
+    "fail": "To solve a puzzle, you must remove all the tokens",
+    },
+    {
+    "level": "15",
+    "next": "1010101",
+    "grid": [
+			"........",
+			"........",
+			"........",
+			"........",
+			"........",
+			"........",
+			"........",
+			".......0"
+		],
+    "hint": "",
+    "fail": "To solve a puzzle, you must remove all the tokens",
+    },
+    {
+    "level": "16",
+    "next": "31032",
+    "grid": [
+			"........",
+			"........",
+			"........",
+			"........",
+			"........",
+			"..00....",
+			"..13....",
+			"..122..."
+		],
+    "hint": "",
+    "fail": "To solve a puzzle, you must remove all the tokens",
+    },
+    {
+    "level": "17",
+    "next": "2032",
+    "grid": [
+			"........",
+			"........",
+			"........",
+			"........",
+			".22.....",
+			".00.....",
+			"044....2",
+			"033422.2"
+		],
+    "hint": "",
+    "fail": "To solve a puzzle, you must remove all the tokens",
+    },
+    {
+    "level": "17",
+    "next": "310023",
+    "grid": [
+			"........",
+			"...1....",
+			"..30....",
+			"..20....",
+			"..32.4..",
+			"..30.4..",
+			"..11320.",
+			"..11342."
+		],
+    "hint": "",
+    "fail": "To solve a puzzle, you must remove all the tokens",
+    },
+    {
+    "level": "17",
+    "next": "313121",
+    "grid": [
+			"........",
+			"........",
+			"........",
+			"........",
+			"........",
+			"........",
+			"...22...",
+			"112321.."
+		],
+    "hint": "",
+    "fail": "To solve a puzzle, you must remove all the tokens",
+    },
+    {
+    "level": "17",
+    "next": "33212103",
+    "grid": [
+			"........",
+			"........",
+			"........",
+			"........",
+			"........",
+			"........",
+			"........",
+			"..2100.."
+		],
+    "hint": "",
+    "fail": "To solve a puzzle, you must remove all the tokens",
+    },
+    {
+    "level": "17",
+    "next": "023240",
+    "grid": [
+			"........",
+			"........",
+			"........",
+			"........",
+			"........",
+			".4.44...",
+			".4432...",
+			"40432..."
+		],
+    "hint": "",
+    "fail": "To solve a puzzle, you must remove all the tokens",
+    },
+    {
+    "level": "17",
+    "next": "1312211",
+    "grid": [
+			"........",
+			"........",
+			"........",
+			"....0...",
+			"...03...",
+			"...31...",
+			"...00.1.",
+			".110021."
+		],
+    "hint": "",
+    "fail": "To solve a puzzle, you must remove all the tokens",
+    },
+    {
+    "level": "17",
+    "next": "1420030",
+    "grid": [
+			"1.......",
+			"23......",
+			"21......",
+			"01.2....",
+			"2002....",
+			"3140....",
+			"1242....",
+			"1211...."
+		],
+    "hint": "",
+    "fail": "To solve a puzzle, you must remove all the tokens",
+    },
+    {
+    "level": "17",
+    "next": "444313",
+    "grid": [
+			"........",
+			"........",
+			"........",
+			"..2.....",
+			"1303....",
+			"2311....",
+			"12044...",
+			"1302244."
+		],
+    "hint": "",
+    "fail": "To solve a puzzle, you must remove all the tokens",
+    },
+    {
+    "level": "17",
+    "next": "0243210",
+    "grid": [
+			"........",
+			".....0..",
+			".....4..",
+			"....40..",
+			"....30..",
+			"....23..",
+			"...012..",
+			"...221.."
+		],
+    "hint": "",
+    "fail": "To solve a puzzle, you must remove all the tokens",
+    },
+    {
+    "level": "17",
+    "next": "33412",
+    "grid": [
+			"........",
+			"........",
+			"....0...",
+			"....01..",
+			"....13..",
+			"....04..",
+			"...214..",
+			"...201.."
+		],
+    "hint": "",
+    "fail": "To solve a puzzle, you must remove all the tokens",
+    }
+]
+}

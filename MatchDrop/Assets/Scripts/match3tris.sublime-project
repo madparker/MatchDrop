@@ -1,0 +1,9 @@
+{
+	"folders":
+	[
+		{
+			"path": "Assets/scripts/",
+			"file_exclude_patterns": ["*.meta"]
+		}
+	]
+}

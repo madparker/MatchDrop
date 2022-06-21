@@ -1,0 +1,60 @@
+{
+"hints":
+[	{
+    "hint": "Welcome to \nEndless Mode!\n\nPlay as long as possible without overflowing the Grid",
+    "function":"GridOverFlowHint",
+    "trigger":"",
+    "buttonText1":"Got it!",
+    "highlight":"grid"
+    },
+    {
+    "hint": "Notice some of the Queue is Hidden. Unlock Previews by making Matches!",    
+    "function":"GridOverFlowHint",
+    "trigger":"",
+    "buttonText1":"Got it!",
+    "highlight":"prev"
+    },
+    {
+    "hint": "The Swapbox\nallows you to swap the Token you're about to drop with one you'd like to save for later!",    
+    "function":"GridOverFlowHint",
+    "trigger":"",
+    "highlight":"swap",
+    "buttonText1":"Let's Play!"
+    },
+    {
+    "hint": "You made a match! Watch how it reveals a Preview in the Queue!",    
+    "function":"SetMatchHighLight",
+    "trigger":"Match",
+    "highlight":"matchPrev",
+    "buttonText1":"Got it!",
+    "buttonText2":"Remind me next time!"
+    },
+    {
+    "hint": "You made another match and unlocked another Preview in the Queue!",    
+    "function":"SetMatchHighLight",
+    "trigger":"Match",
+    "highlight":"matchPrev",
+    "showAgain":"true",
+    "buttonText1":"Got it!",
+    "buttonText2":"Remind me next time!"
+    },
+    {
+    "hint": "You got 4 in a row! You unlocked a token plus a BOMB!",    
+    "function":"SetMatchHighLight",
+    "trigger":"Match4",
+    "highlight":"matchPrev2",
+    "showAgain":"true",
+    "buttonText1":"Got it!",
+    "buttonText2":"Remind me next time!"
+    },
+    {
+    "hint": "You got 5 or more in a row! You unlocked a token plus a ZAP!",  
+    "function":"SetMatchHighLight",
+    "trigger":"Match5",
+    "highlight":"matchPrev2",
+    "showAgain":"true",
+    "buttonText1":"Got it!",
+    "buttonText2":"Remind me next time!"
+    }
+]
+}

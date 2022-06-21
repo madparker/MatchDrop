@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Attributes" t="Include">
+          <e p="LongStringAttribute.cs" t="Include" />
+        </e>
+        <e p="Editor" t="Include">
+          <e p="AutoSave.cs" t="Include" />
+          <e p="LevelScriptEditor.cs" t="Include" />
+        </e>
+        <e p="JSON Tests" t="Include">
+          <e p="CSharp" t="Include">
+            <e p="Test_CSharp.cs" t="Include" />
+          </e>
+          <e p="TroubleShoot.txt" t="Include" />
+        </e>
+        <e p="plugins" t="Include">
+          <e p="SimpleJSON.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="ChallengeManager.cs" t="Include" />
+          <e p="FontSizeTesterScript.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
+          <e p="grid" t="Include">
+            <e p="DisplayBombToken.cs" t="Include" />
+            <e p="DisplayMultiToken.cs" t="Include" />
+            <e p="DisplayNumberToken.cs" t="Include" />
+            <e p="DisplayRockToken.cs" t="Include" />
+            <e p="DisplayToken.cs" t="Include" />
+            <e p="DisplayZap.cs" t="Include" />
+            <e p="GridBombToken.cs" t="Include" />
+            <e p="GridHandler.cs" t="Include" />
+            <e p="GridMultiToken.cs" t="Include" />
+            <e p="GridNumberToken.cs" t="Include" />
+            <e p="GridPuzzleHandler.cs" t="Include" />
+            <e p="GridRockToken.cs" t="Include" />
+            <e p="GridToken.cs" t="Include" />
+            <e p="GridZapToken.cs" t="Include" />
+            <e p="Rectangle.cs" t="Include" />
+            <e p="TokenMovement.cs" t="Include" />
+          </e>
+          <e p="gui" t="Include">
+            <e p="AccessRestricter.cs" t="Include" />
+            <e p="AccessRestricterPuzzle.cs" t="Include" />
+            <e p="AccessRestricterStart.cs" t="Include" />
+            <e p="ChallengeMenuNumLevels.cs" t="Include" />
+            <e p="ChallengeTokenDisplay.cs" t="Include" />
+            <e p="ChangeScreenBtn.cs" t="Include" />
+            <e p="ChangeScreenButton.cs" t="Include" />
+            <e p="ChangeScreenButtonLock.cs" t="Include" />
+            <e p="ChangeScreenSpriteBtn.cs" t="Include" />
+            <e p="GoToLevelButton.cs" t="Include" />
+            <e p="GuiChallenge.cs" t="Include" />
+            <e p="GuiEndless.cs" t="Include" />
+            <e p="GuiPuzzle.cs" t="Include" />
+            <e p="GuiTutorial.cs" t="Include" />
+            <e p="LerpMove.cs" t="Include" />
+            <e p="LerpMoveDot.cs" t="Include" />
+            <e p="Line.cs" t="Include" />
+            <e p="PointAnim.cs" t="Include" />
+            <e p="Puzzle2ChallengeMenu.cs" t="Include" />
+            <e p="PuzzleLevelButton.cs" t="Include" />
+            <e p="PuzzleMenuBtn.cs" t="Include" />
+            <e p="PuzzleMenuGenerator.cs" t="Include" />
+            <e p="PuzzleMenuNumLevels.cs" t="Include" />
+            <e p="ResetScript.cs" t="Include" />
+            <e p="Shrinker.cs" t="Include" />
+            <e p="StartScreenGui.cs" t="Include" />
+          </e>
+          <e p="hints" t="Include">
+            <e p="FocusAreaScript.cs" t="Include" />
+            <e p="Hint.cs" t="Include" />
+            <e p="HintHelper.cs" t="Include" />
+          </e>
+          <e p="level" t="Include">
+            <e p="Level.cs" t="Include" />
+            <e p="PuzzleLevel.cs" t="Include" />
+            <e p="TutorialLevel.cs" t="Include" />
+            <e p="TutorialStep.cs" t="Include" />
+          </e>
+          <e p="messages" t="Include">
+            <e p="PositionMessage.cs" t="Include" />
+          </e>
+          <e p="NewPuzzleManager.cs" t="Include" />
+          <e p="NewTutorialManager.cs" t="Include" />
+          <e p="next" t="Include">
+            <e p="BlankTokenDisplay.cs" t="Include" />
+            <e p="NextTokenHandler.cs" t="Include" />
+            <e p="NextTokenHandlerNoBlank.cs" t="Include" />
+            <e p="NextTokenOrderedHandler.cs" t="Include" />
+            <e p="RowUpToken.cs" t="Include" />
+          </e>
+          <e p="pool" t="Include">
+            <e p="ObjectPool.cs" t="Include" />
+            <e p="Poolable.cs" t="Include" />
+            <e p="PoolToken.cs" t="Include" />
+          </e>
+          <e p="PuzzleManager.cs" t="Include" />
+          <e p="screens" t="Include">
+            <e p="BackToStartGUI.cs" t="Include" />
+            <e p="EndScreen.cs" t="Include" />
+            <e p="PuzzleMenu.cs" t="Include" />
+            <e p="StartScreen.cs" t="Include" />
+          </e>
+          <e p="shader" t="Include">
+            <e p="Alpha Shader - Reverse.shader" t="Include" />
+            <e p="Alpha Shader.shader" t="Include" />
+            <e p="FocusShader.shader" t="Include" />
+            <e p="GLSLTest.shader" t="Include" />
+          </e>
+          <e p="TutorialManager.cs" t="Include" />
+          <e p="util" t="Include">
+            <e p="Util.cs" t="Include" />
+          </e>
+          <e p="WalkThroughScript.cs" t="Include" />
+        </e>
+        <e p="Standard Assets" t="Include">
+          <e p="Water (Basic)" t="Include">
+            <e p="Sources" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="WaterSimple.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="FX-Water Simple.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="MatchDrop.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_MatchDrop.-1440662406.00" t="ExcludeRecursive" />
+  </component>
+</project>

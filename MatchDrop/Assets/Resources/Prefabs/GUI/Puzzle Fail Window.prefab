@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Puzzle Fail Window
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .086991027, y: -.630337358, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2343c764290a4a4a9637a55b6702b93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  caption: Sorry!
+  size: {x: 300, y: 200}
+  scrollViewSize: {x: 0, y: 0}
+  position: {x: 0, y: 0}
+  globalAligment: 1
+  startAnimation: 4
+  animationSpeed: 15
+  skin: {fileID: 11400000, guid: 04a7f26484c6e4a6787511cede50ff5b, type: 2}
+  icon: {fileID: 0}
+  draggable: 0
+  autoAdjustSize: 1
+  interactionSound: {fileID: 0}
+  Elements:
+  - caption: BG
+    icon: {fileID: 2800000, guid: f165ce92b01a7425388c45870c794b6c, type: 3}
+    type: 21
+    size: {x: 300, y: 200}
+    globalAligment: 1
+    position: {x: 0, y: 0}
+    startAnimation: 0
+    animationSpeed: 1
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 1
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: You didn't solve the Puzzle! You must remove all of the tokens in the
+      grid and the queue!
+    icon: {fileID: 0}
+    type: 17
+    size: {x: 250, y: 100}
+    globalAligment: 1
+    position: {x: 0, y: 100}
+    startAnimation: 0
+    animationSpeed: 1
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 1
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: TRY AGAIN!
+    icon: {fileID: 0}
+    type: 15
+    size: {x: 150, y: 40}
+    globalAligment: 9
+    position: {x: 0, y: 100}
+    startAnimation: 0
+    animationSpeed: 1
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 1
+    locked: 0
+    lockImage: {fileID: 0}
+  - caption: PUZZLE MENU
+    icon: {fileID: 0}
+    type: 7
+    size: {x: 150, y: 40}
+    globalAligment: 6
+    position: {x: 0, y: 100}
+    startAnimation: 0
+    animationSpeed: 1
+    skin: {fileID: 0}
+    parameter: 
+    parameterFloat: 7
+    locked: 0
+    lockImage: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

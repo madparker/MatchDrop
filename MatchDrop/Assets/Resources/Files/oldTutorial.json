@@ -1,0 +1,261 @@
+{
+"levels":
+[	{
+    "level": "1",
+    "next": "1*",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"...00...",
+    	"1001100."
+    	],
+    "steps": [
+    	{
+    		"stepCondition": "drop", 
+    		"text": "Select the column to match 3 in a row", 
+    		"allowedCol":"4", 
+    		"hlArea":"match"
+    	},
+    	{
+    		"stepCondition": "empty", 
+    		"text": "You can match\nhorizontally, vertically, or diagonally", 
+    		"allowedCol":"4", 
+    		"hlArea":"off"
+    	}
+    	]
+    },
+	{
+    "level": "1",
+    "next": "01",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"...1....",
+    	"...1....",
+    	"...0.0.."
+    	],
+    "steps": [
+    	{
+    		"stepCondition": "drop", 
+    		"text": "Select the column to match 3 in a row", 
+    		"allowedCol":"4", 
+    		"hlArea":"match"
+    	},
+    	{
+    		"stepCondition": "empty", 
+    		"text": "You can match\nhorizontally, vertically, or diagonally", 
+    		"allowedCol":"3", 
+    		"hlArea":"off"
+    	}
+    	]
+    },
+    {
+    "level": "2",
+    "next": "431",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"....4...",
+    	"....1...",
+    	".3431..."
+    	],
+    "steps": [
+    	{
+    		"stepCondition": "drop", 
+    		"text": "Drop the token to make a diagonal match!", 
+    		"allowedCol":"3"
+    		"highLightArea": "grid"
+    	},
+    	{
+    		"stepCondition": "drop", 
+    		"text": "Now you can make a horizontal match", 
+    		"allowedCol":"2"
+    	},
+    	{
+    		"stepCondition": "empty", 
+    		"text": "Now you can make a vertical match", 
+    		"allowedCol":"4"
+    	}
+    	]
+    },
+    {
+    "level": "3",
+    "next": "5433",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"..3.....",
+    	"..4.....",
+    	".554...."
+    	],
+    "steps": [
+    	{
+    		"stepCondition": "drop", 
+    		"text": "On the left you can see\nthe upcoming tokens", 
+    		"allowedCol":"0",
+    		"objTriggers": ["NextArrow"]
+    	},    	
+    	{
+    		"stepCondition": "drop", 
+    		"text": "Use the upcoming tokens to\nplan your drops", 
+    		"allowedCol":"4",
+    		"objTriggers": ["NextArrow"]
+    	},    	
+    	{
+    		"stepCondition": "empty", 
+    		"text": "Sometimes you must drop\nmore than one token to make a match!"
+    	},
+    ]
+    },
+    {
+    "level": "4",
+    "next": "a",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	".11.22.."
+    	],
+    "steps": [
+    	{
+    		"stepCondition": "empty", 
+    		"text": "Multis\nwill match with two types of tokens!", 
+    		"allowedCol":"3",
+    		"objTriggers": []
+    	}
+    ]
+    },
+    {
+    "level": "4",
+    "next": "r",
+    "grid": [
+    	".......",
+    	".......",
+    	".......",
+    	".......",
+    	".......",
+    	"..0.5..",
+    	"..4.4..",
+    	"..123.."
+    	],
+    "steps": [
+    	{
+    		"stepCondition": "empty", 
+    		"text": "Bombs\nremove all tokens around when they match!", 
+    		"allowedCol":"3",
+    		"objTriggers": []
+    	}
+    	]
+    },
+    {
+    "level": "4",
+    "next": "*3",
+    "grid": [
+    	".......",
+    	".......",
+    	".......",
+    	".......",
+    	".......",
+    	".......",
+    	".......",
+    	"00.30300"
+    	],
+    "steps": [
+    	{
+    		"stepCondition": "drop", 
+    		"text": "Zaps\nremove all of the type you dropped it on!", 
+    		"allowedCol":"0",
+    		"objTriggers": []
+    	},    	
+    	{
+    		"stepCondition": "empty", 
+    		"text": "Now make another match!", 
+    		"allowedCol":"4",
+    		"objTriggers": []
+    	},
+    	]
+    },
+    {
+    "level": "123=4",
+    "next": "r",
+    "grid": [
+    	".......",
+    	".......",
+    	".......",
+    	".......",
+    	".......",
+    	"..0.5..",
+    	"..4.4..",
+    	"..123.."
+    	],
+    "steps": [
+    	{
+    		"stepCondition": "drop", 
+    		"text": "Bombs\nremove all tokens around when they match!", 
+    		"allowedCol":"3",
+    		"objTriggers": []
+    	}
+    	]
+    },
+    {
+    "level": "1",
+    "next": "4====",
+    "grid": [
+    	".......",
+    	".......",
+    	".......",
+    	".......",
+    	".......",
+    	"..3.3..",
+    	"..3.3..",
+    	"..4.4.."
+    	],
+    "steps": [
+    	{
+    		"stepCondition": "drop", 
+    		"text": "Make a match to turn\nreveal a Hidden Token",  
+    		"allowedCol":"3",
+    		"objTriggers": ["NextArrow"]
+    	},
+    	{
+    		"stepCondition": "drop", 
+    		"text": "That Hidden Token turned into a Green!\nMake another Match!", 
+    		"allowedCol":"3",
+    		"prev":"true",
+    		"objTriggers": ["NextArrow"]
+    	},
+    	{
+    		"stepCondition": "drop", 
+    		"text": "You revealed another one!", 
+    		"prev":"true",
+    		"allowedCol":"3",
+    		"objTriggers": []
+    	},
+    	{
+    		"stepCondition": "drop", 
+    		"text": "You revealed another one!\nAnd another...", 
+    		"allowedCol":"3",
+    		"objTriggers": []
+    	}
+    	]
+    }
+    
+]
+}

@@ -1,0 +1,20 @@
+newmtl Whites
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+Ns 127
+newmtl Material2
+Ka 0.2 0.2 0.2
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 127
+newmtl Blue
+Ka 0 0.501961 1
+Kd 0 0 1
+Ks 0 0 0
+Ns 127
+newmtl Red
+Ka 1 0.4 0.4
+Kd 1 0.4 0.4
+Ks 0 0 0
+Ns 127

@@ -1,0 +1,132 @@
+{
+"levels":
+[	{
+    "level": "0",
+    "next": "012",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"....2...",
+    	"110.02.."
+    	],
+    "hint": "Make matches of 3 in a Row!\nTap where to drop",
+    "fail": "You must match 3 in\na row to remove tokens"
+    },
+    {
+    "level": "1",
+    "next": "21",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"..1.....",
+    	"..122..."
+    	],
+    "hint": "You can make matches\nin any direction",
+    "fail": "You must clear all tokens\nto advance to the next level"
+    },
+    {
+    "level": "2",
+    "next": "33",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"..33...."
+    	],
+    "hint": "You can also make\nmatches of more than 3",
+    "fail": "To solve a puzzle, you must remove all the tokens"
+    },
+    {
+    "level": "3",
+    "next": "430",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"....40..",
+    	"..3430.."
+    	],
+    "hint": "You can even make\ndiagonal matches!",
+    "fail": "To solve a puzzle, you must remove all the tokens"
+    },
+    {
+    "level": "4",
+    "next": "a",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"..11.22."
+    	],
+    "hint": "Multis\nmatch two types of tokens",
+    "fail": "To solve a puzzle, you must remove all the tokens"
+    },
+    {
+    "level": "5",
+    "next": "r",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"..2.2...",
+    	"..4.4..",
+    	"..313..."
+    	],
+    "hint": "Bombs explode\nwhen you match them",
+    "fail": "To solve a puzzle, you must remove all the tokens"
+    },
+    {
+    "level": "6",
+    "next": "*1",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"0.01010."
+    	],
+    "hint": "Zaps destroy\nall tokens of one type",
+    "fail": "To solve a puzzle, you must remove all the tokens"
+    },
+    {
+    "level": "6",
+    "next": "24",
+    "grid": [
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"........",
+    	"...2|...",
+    	"..244.|."
+    	],
+    "hint": "Rocks crumble\nwhen you make a match next to them",
+    "fail": "To solve a puzzle, you must remove all the tokens"
+    }
+]
+}
